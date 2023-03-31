@@ -25,7 +25,7 @@ const About = () => {
                <Image 
                data-aos="fade-up" 
                className='rounded-full shadow-xl' 
-               src="/../public/fel.jpg" 
+               src="/../public/images/fel.jpg" 
                width='350' 
                height='100' 
                alt="" />

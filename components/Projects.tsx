@@ -21,7 +21,9 @@ function Projects() {
         
         <div className='grid md:grid-cols-2 gap-8'>
           <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:scale-105 ease-in duration-300 bg-gradient-to-r from-[#001845] to-[#33415c]'>
-            <Image className='rounded-xl group-hover:opacity-10' src="/../public/HC.png" 
+            <Image 
+            className='rounded-xl group-hover:opacity-10' 
+            src="/../public/images/HC.png" 
             width='1800' 
             height='500' 
             alt="" 
@@ -35,7 +37,7 @@ function Projects() {
           </div>
 
           <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:scale-105 ease-in duration-300 bg-gradient-to-r from-[#001845] to-[#33415c]'>
-            <Image className='rounded-xl group-hover:opacity-10' src="/../public/VA.png" 
+            <Image className='rounded-xl group-hover:opacity-10' src="/../public/images/VA.png" 
             width='140' 
             height='300' 
             alt="" 
@@ -49,7 +51,7 @@ function Projects() {
           </div>
 
           <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:scale-105 ease-in duration-300 bg-gradient-to-r from-[#001845] to-[#33415c]'>
-            <Image className='rounded-xl group-hover:opacity-10' src="/../public/zo.png" 
+            <Image className='rounded-xl group-hover:opacity-10' src="/../public/images/zo.png" 
             width='1800' 
             height='500' 
             alt="" 
@@ -63,7 +65,7 @@ function Projects() {
           </div>
 
           <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:scale-105 ease-in duration-300 bg-gradient-to-r from-[#001845] to-[#33415c]'>
-            <Image className='rounded-xl group-hover:opacity-10' src="/../public/expense.png" 
+            <Image className='rounded-xl group-hover:opacity-10' src="/../public/images/expense.png" 
             width='350' 
             height='500' 
             alt="" 
