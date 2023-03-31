@@ -3,6 +3,7 @@ import Aos from "aos"
 import Image from 'next/image'
 import "aos/dist/aos.css"
 import {AiFillHtml5} from 'react-icons/ai'
+import felix from '../public/img/fel.jpg'
 
 const About = () => {
    useEffect(() => {
@@ -25,10 +26,10 @@ const About = () => {
                <Image 
                data-aos="fade-up" 
                className='rounded-full shadow-xl' 
-               src="/../public/images/fel.jpg" 
+               src={felix} 
                width='350' 
                height='100' 
-               alt="" />
+               alt="felix" />
             </div>
          </div>
       </div>

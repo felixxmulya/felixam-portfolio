@@ -5,6 +5,7 @@ import Image from 'next/image'
 import {AiOutlineClose, AiOutlineMenu, AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub,} from 'react-icons/fa'
 import {IoIosPaper} from 'react-icons/io'
+import logo from '../public/img/bg.png'
 
 
 const Navbar = () => {
@@ -32,7 +33,7 @@ const Navbar = () => {
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 '>
          <Link className='text-sm font-bold hover:border-b'href="/#home">
             <Image 
-            src="/../public/bg.png" 
+            src={logo} 
             width='60' 
             height='300' 
             alt="" />
