@@ -1,13 +1,20 @@
-import React from 'react'
+import React,{ useEffect} from 'react'
+import Aos from "aos"
+import "aos/dist/aos.css"
 import {FaCss3Alt,FaReact, FaPython, FaLaravel, FaGit, FaDocker, FaFigma, FaLinux, FaJava, FaHtml5} from 'react-icons/fa'
 import {SiTypescript,SiJavascript,SiMysql, SiTailwindcss, SiPytorch, SiPython} from 'react-icons/si'
 import {TbBrandNextjs, TbSql,} from 'react-icons/tb'
 
 
 function Skills() {
+  useEffect(() => {
+    Aos.init({duration: 2000});
+ }, []);
   return (
     <div id='skills' className='w-full lg:h-full p-2'>
-      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
+      <div data-aos="fade-up" 
+      data-aos-anchor-placement="center-bottom"
+      className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <h2 className='my-4 tracking-widest uppercase text-right'>
           Skills
         </h2>

@@ -1,21 +1,28 @@
-import React from 'react'
+import React,{ useEffect} from 'react'
 import Link from 'next/link'
+import Aos from "aos"
+import "aos/dist/aos.css"
 import {FaLinkedinIn, FaGithub,} from 'react-icons/fa'
 import {IoIosPaper} from 'react-icons/io'
 
 function Contacts() {
+  useEffect(() => {
+    Aos.init({duration: 1000});
+  }, []);
   return (
    <div id='contacts' className='w-full p-2'>
-      <div className='max-w-[1240px]  mx-auto px-2 py-16'>
-         <h2 className='my-4 tracking-widest text-center uppercase'>
+      <div 
+        data-aos="fade-up" 
+        className='max-w-[1240px] mx-auto px-2 py-16'>
+        <h2 className='my-4 tracking-widest text-center uppercase'>
             Contact
-         </h2>
-         <div className='text-center'>
+        </h2>
+        <div className='text-center'>
           <p className='py-4 text-xl text-gray-700 max-w-[70%] m-auto '>I am available for freelance or full-time positions. <br /> Please feel free to contact me and let's talk.</p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-5'>
             <Link href='https://www.linkedin.com/in/felix-ardy-mulya-47747915b/' target='_blank' >
               <div className='rounded-full shadow-lg shadow-gray-400 p-6
-             cursor-pointer hover:scale-110 ease-in duration-400'>
+            cursor-pointer hover:scale-110 ease-in duration-400'>
                 <FaLinkedinIn/>
               </div>
             </Link>

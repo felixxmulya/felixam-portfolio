@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useEffect} from 'react'
+import Aos from "aos"
+import "aos/dist/aos.css"
 import Image from 'next/image'
 import Link from 'next/link'
 
 function Projects() {
+  useEffect(() => {
+    Aos.init({duration: 2000});
+ }, []);
   return (
     <div id='projects' className='w-full lg:h-screen p-2'>
-      <div className='max-w-[1240px] mx-auto px-2 py-16'>
+      <div data-aos="fade-up" 
+       
+      className='max-w-[1240px] mx-auto px-2 py-16'>
         <h2 className='my-4 tracking-widest  uppercase'>
             Projects
         </h2>

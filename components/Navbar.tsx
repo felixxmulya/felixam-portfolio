@@ -29,9 +29,13 @@ const Navbar = () => {
    className={shadow ? 'fixed w-full h-20 shadow-xl bg-[#ecf0f3] z-[100]' 
    : 'fixed w-full h-20 bg-[#ecf0f3] z-[100]'}>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 '>
-         <a className='text-sm font-bold hover:border-b'href="">
-            <h2>Felix Mulya</h2>
-         </a> 
+         <Link className='text-sm font-bold hover:border-b'href="/#home">
+            <Image 
+            src="/../public/bg.png" 
+            width='60' 
+            height='300' 
+            alt="" />
+         </Link> 
       <div>
          <ul className='hidden md:flex'>
             <Link href="/#home">
@@ -40,11 +44,11 @@ const Navbar = () => {
             <Link href="/#about">
                <li className='ml-10 text-sm uppercase font-bold hover:border-b-2 border-black ' >About</li>
             </Link>
-            <Link href="/#projects">
-               <li className='ml-10 text-sm uppercase font-bold hover:border-b-2 border-black'>Projects</li>
-            </Link>
             <Link href="/#skills">
                <li className='ml-10 text-sm uppercase font-bold hover:border-b-2 border-black'>Skills</li>
+            </Link>
+            <Link href="/#projects">
+               <li className='ml-10 text-sm uppercase font-bold hover:border-b-2 border-black'>Projects</li>
             </Link>
             <Link href="/#contacts" >
                <li className='ml-10 text-sm uppercase font-bold hover:border-b-2 border-black'>Contact</li>
@@ -55,7 +59,7 @@ const Navbar = () => {
          </div>
       </div>
    </div>
-   <div className={nav ? 'md:hidden fixed right-o top-0 w-full h-screen bg-black/70': ''}>
+   <div onClick={() => setNav(false)} className={nav ? 'md:hidden fixed right-o top-0 w-full h-screen bg-black/70': ''}>
       <div className={nav ? 'fixed right-0 top-0 w-[75%] sm:w-[50%] md:w-[40%] h-screen bg-[#ecf0f3] p-3 ease-in duration-500 rounded-xl' : 'fixed right-[-100%] top-0 p-10 ease-in duration-500 '}>
          <div>
             <div className='flex w-full items-center justify-between'>
