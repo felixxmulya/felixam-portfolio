@@ -28,7 +28,7 @@ const Main = () => {
             </div>
             </Link>
 
-            <Link href='https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:c21c5ace-ea07-4f24-9a09-996437f4db88' target='_blank' >
+            <Link href='https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:88b266d5-57d8-40fa-8200-83a775faaebb' target='_blank' >
             <div className='rounded-full shadow-lg shadow-gray-400 p-6
             cursor-pointer hover:scale-110 ease-in duration-400'>
               <IoIosPaper/>
