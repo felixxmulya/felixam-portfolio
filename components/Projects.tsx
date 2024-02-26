@@ -13,7 +13,7 @@ function Projects() {
     Aos.init({duration: 2000});
  }, []);
   return (
-    <div id='projects' className='w-full lg:h-screen p-2'>
+    <div id='projects' className='w-full h-full p-2 '>
       <div data-aos="fade-up" 
        
       className='max-w-[1240px] mx-auto px-2 py-16'>

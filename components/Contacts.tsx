@@ -11,7 +11,7 @@ function Contacts() {
     Aos.init({duration: 1000});
   }, []);
   return (
-   <div id='contacts' className='w-full p-2'>
+   <div id='contacts' className='w-full p-2 mt-5'>
       <div 
         data-aos="fade-up" 
         className='max-w-[1240px] mx-auto px-2 py-16'>

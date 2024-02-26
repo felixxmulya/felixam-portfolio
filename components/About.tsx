@@ -19,8 +19,8 @@ const About = () => {
                <h2 className='my-4 uppercase tracking-widest'>About</h2>
                <div className='border-b border-gray-400 my-4'>
                </div>
-               <p className='py-2 text-justify'>As a computer science student at Tunghai University, I am deeply passionate about full-stack development. From designing and developing the front-end to building robust back-end systems, I find joy in every step of the development process. Through various courses and projects at Tunghai University, I have gained proficiency in multiple programming languages, frameworks, and tools, such as HTML, CSS, JavaScript, React, Node.js, Laravel, and MongoDB.</p>
-               <p className='py-2 text-justify'>I have also honed my problem-solving and critical thinking skills, enabling me to tackle complex challenges with ease. With the ever-evolving nature of technology, I am eager to continue learning and keeping up with the latest trends and advancements in the industry.</p>
+               <p className='py-2 text-justify'>Hello! My name is Felix Ardy Mulya, and I'm excited to share a bit about myself and my journey in the world of computer science. Graduating with a Bachelor of Engineering in Computer Science from Tunghai University in 2023 marked the beginning of my adventure in the tech industry. I am deeply passionate about full-stack development. From designing and developing the front-end to building robust back-end systems, I find joy in every step of the development process. </p>
+               <p className='py-2 text-justify'>Through various courses and projects at Tunghai University, I have gained proficiency in multiple programming languages, such as HTML, CSS, JavaScript, Python. With a dedication to continuous learning, I'm excited to learn more about different programming languages and gain expertise in a variety of coding techniques.</p>
             </div>
             <div  className='w-auto h-auto m-auto  shadow-gray-400 rounded-full flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                <Image 
